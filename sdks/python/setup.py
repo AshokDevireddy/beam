@@ -448,7 +448,7 @@ if __name__ == '__main__':
               'oracledb>=3.1.1'
           ],
           'gcp': [
-              'cachetools>=3.1.0,<6',
+              'cachetools>=3.1.0,<7',
               'google-api-core>=2.0.0,<3',
               'google-apitools>=0.5.31,<0.5.32; python_version <= "3.12"',
               'google-apitools>=0.5.32,<0.5.33; python_version >= "3.13"',
@@ -574,7 +574,7 @@ if __name__ == '__main__':
           'torch': ['torch>=1.9.0,<2.8.0'],
           'tensorflow': ['tensorflow>=2.12rc1,<2.17'],
           'transformers': [
-              'transformers>=4.28.0,<4.49.0',
+              'transformers>=4.28.0,<4.56.0',
               'tensorflow>=2.12.0',
               'torch>=1.9.0'
           ],
